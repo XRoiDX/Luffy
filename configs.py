@@ -40,7 +40,7 @@ class Config(object):
 	API_HASH = os.environ.get("API_HASH", "33010a70e94f80e55145980072cce969")
 	BOT_TOKEN = os.environ.get("BOT_TOKEN","7598503332:AAG8m1V_PqwuABv2cPIyAvoCSzkG00U55jw")
 	BOT_USERNAME = os.environ.get("BOT_USERNAME" , "LufffuiBot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002392058704"))
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
 	BOT_OWNER = int(os.environ.get("BOT_OWNER", "7157101331"))
 	DATABASE_URL = os.environ.get("DATABASE_URL","mongodb+srv://videshi:videshi@videshi.wtffv.mongodb.net/?retryWrites=true&w=majority&appName=videshi")
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002438002033")
